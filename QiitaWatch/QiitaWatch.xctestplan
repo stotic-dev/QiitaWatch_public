@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "77E34406-CDA6-4F3A-8130-EAC7BC852B4C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:QiitaWatch.xcodeproj",
+      "identifier" : "BC5BBCC72CE4D4AA0022665A",
+      "name" : "QiitaWatch"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:QiitaWatch.xcodeproj",
+        "identifier" : "BC5BBCDD2CE4D4AE0022665A",
+        "name" : "QiitaWatchTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:QiitaWatch.xcodeproj",
+        "identifier" : "BC5BBCE72CE4D4AE0022665A",
+        "name" : "QiitaWatchUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

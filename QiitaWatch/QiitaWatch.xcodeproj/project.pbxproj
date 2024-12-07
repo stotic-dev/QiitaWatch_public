@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC5BBCFE2CE4E5390022665A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BC5BBCFD2CE4E5390022665A /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC5BBCDF2CE4D4AE0022665A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5BBCC02CE4D4AA0022665A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5BBCC72CE4D4AA0022665A;
+			remoteInfo = QiitaWatch;
+		};
+		BC5BBCE92CE4D4AE0022665A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5BBCC02CE4D4AA0022665A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5BBCC72CE4D4AA0022665A;
+			remoteInfo = QiitaWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC5BBD0D2CE4E6780022665A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC1468562CEEE9EF0052ED6B /* QiitaWatch.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = QiitaWatch.xctestplan; sourceTree = "<group>"; };
+		BC5BBCC82CE4D4AA0022665A /* QiitaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5BBCDE2CE4D4AE0022665A /* QiitaWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiitaWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5BBCE82CE4D4AE0022665A /* QiitaWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiitaWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BC5BBCF02CE4D4AE0022665A /* Exceptions for "QiitaWatch" folder in "QiitaWatch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BC5BBCC72CE4D4AA0022665A /* QiitaWatch */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BC5BBCCA2CE4D4AA0022665A /* QiitaWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BC5BBCF02CE4D4AE0022665A /* Exceptions for "QiitaWatch" folder in "QiitaWatch" target */,
+			);
+			path = QiitaWatch;
+			sourceTree = "<group>";
+		};
+		BC5BBCE12CE4D4AE0022665A /* QiitaWatchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QiitaWatchTests;
+			sourceTree = "<group>";
+		};
+		BC5BBCEB2CE4D4AE0022665A /* QiitaWatchUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QiitaWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5BBCC52CE4D4AA0022665A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5BBCFE2CE4E5390022665A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5BBCDB2CE4D4AE0022665A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5BBCE52CE4D4AE0022665A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5BBCBF2CE4D4AA0022665A = {
+			isa = PBXGroup;
+			children = (
+				BC1468562CEEE9EF0052ED6B /* QiitaWatch.xctestplan */,
+				BC5BBCCA2CE4D4AA0022665A /* QiitaWatch */,
+				BC5BBCE12CE4D4AE0022665A /* QiitaWatchTests */,
+				BC5BBCEB2CE4D4AE0022665A /* QiitaWatchUITests */,
+				BC5BBD102CE4E7380022665A /* Frameworks */,
+				BC5BBCC92CE4D4AA0022665A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5BBCC92CE4D4AA0022665A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBCC82CE4D4AA0022665A /* QiitaWatch.app */,
+				BC5BBCDE2CE4D4AE0022665A /* QiitaWatchTests.xctest */,
+				BC5BBCE82CE4D4AE0022665A /* QiitaWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5BBD102CE4E7380022665A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5BBCC72CE4D4AA0022665A /* QiitaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5BBCF12CE4D4AE0022665A /* Build configuration list for PBXNativeTarget "QiitaWatch" */;
+			buildPhases = (
+				BC5BBCC42CE4D4AA0022665A /* Sources */,
+				BC5BBCC52CE4D4AA0022665A /* Frameworks */,
+				BC5BBCC62CE4D4AA0022665A /* Resources */,
+				BC5BBD0D2CE4E6780022665A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BC5BBCCA2CE4D4AA0022665A /* QiitaWatch */,
+			);
+			name = QiitaWatch;
+			packageProductDependencies = (
+				BC5BBCFD2CE4E5390022665A /* Alamofire */,
+			);
+			productName = QiitaWatch;
+			productReference = BC5BBCC82CE4D4AA0022665A /* QiitaWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC5BBCDD2CE4D4AE0022665A /* QiitaWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5BBCF62CE4D4AE0022665A /* Build configuration list for PBXNativeTarget "QiitaWatchTests" */;
+			buildPhases = (
+				BC5BBCDA2CE4D4AE0022665A /* Sources */,
+				BC5BBCDB2CE4D4AE0022665A /* Frameworks */,
+				BC5BBCDC2CE4D4AE0022665A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5BBCE02CE4D4AE0022665A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC5BBCE12CE4D4AE0022665A /* QiitaWatchTests */,
+			);
+			name = QiitaWatchTests;
+			packageProductDependencies = (
+			);
+			productName = QiitaWatchTests;
+			productReference = BC5BBCDE2CE4D4AE0022665A /* QiitaWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC5BBCE72CE4D4AE0022665A /* QiitaWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5BBCF92CE4D4AE0022665A /* Build configuration list for PBXNativeTarget "QiitaWatchUITests" */;
+			buildPhases = (
+				BC5BBCE42CE4D4AE0022665A /* Sources */,
+				BC5BBCE52CE4D4AE0022665A /* Frameworks */,
+				BC5BBCE62CE4D4AE0022665A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5BBCEA2CE4D4AE0022665A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC5BBCEB2CE4D4AE0022665A /* QiitaWatchUITests */,
+			);
+			name = QiitaWatchUITests;
+			packageProductDependencies = (
+			);
+			productName = QiitaWatchUITests;
+			productReference = BC5BBCE82CE4D4AE0022665A /* QiitaWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5BBCC02CE4D4AA0022665A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					BC5BBCC72CE4D4AA0022665A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					BC5BBCDD2CE4D4AE0022665A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BC5BBCC72CE4D4AA0022665A;
+					};
+					BC5BBCE72CE4D4AE0022665A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BC5BBCC72CE4D4AA0022665A;
+					};
+				};
+			};
+			buildConfigurationList = BC5BBCC32CE4D4AA0022665A /* Build configuration list for PBXProject "QiitaWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC5BBCBF2CE4D4AA0022665A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BC5BBCFC2CE4E5390022665A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BC5BBCC92CE4D4AA0022665A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5BBCC72CE4D4AA0022665A /* QiitaWatch */,
+				BC5BBCDD2CE4D4AE0022665A /* QiitaWatchTests */,
+				BC5BBCE72CE4D4AE0022665A /* QiitaWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5BBCC62CE4D4AA0022665A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5BBCDC2CE4D4AE0022665A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5BBCE62CE4D4AE0022665A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5BBCC42CE4D4AA0022665A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5BBCDA2CE4D4AE0022665A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5BBCE42CE4D4AE0022665A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5BBCE02CE4D4AE0022665A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5BBCC72CE4D4AA0022665A /* QiitaWatch */;
+			targetProxy = BC5BBCDF2CE4D4AE0022665A /* PBXContainerItemProxy */;
+		};
+		BC5BBCEA2CE4D4AE0022665A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5BBCC72CE4D4AA0022665A /* QiitaWatch */;
+			targetProxy = BC5BBCE92CE4D4AE0022665A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC5BBCF22CE4D4AE0022665A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QiitaWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.QiitaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC5BBCF32CE4D4AE0022665A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QiitaWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.QiitaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC5BBCF42CE4D4AE0022665A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		BC5BBCF52CE4D4AE0022665A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5BBCF72CE4D4AE0022665A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.QiitaWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiitaWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QiitaWatch";
+			};
+			name = Debug;
+		};
+		BC5BBCF82CE4D4AE0022665A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.QiitaWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiitaWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QiitaWatch";
+			};
+			name = Release;
+		};
+		BC5BBCFA2CE4D4AE0022665A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.QiitaWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QiitaWatch;
+			};
+			name = Debug;
+		};
+		BC5BBCFB2CE4D4AE0022665A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.QiitaWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QiitaWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5BBCC32CE4D4AA0022665A /* Build configuration list for PBXProject "QiitaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5BBCF42CE4D4AE0022665A /* Debug */,
+				BC5BBCF52CE4D4AE0022665A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5BBCF12CE4D4AE0022665A /* Build configuration list for PBXNativeTarget "QiitaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5BBCF22CE4D4AE0022665A /* Debug */,
+				BC5BBCF32CE4D4AE0022665A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5BBCF62CE4D4AE0022665A /* Build configuration list for PBXNativeTarget "QiitaWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5BBCF72CE4D4AE0022665A /* Debug */,
+				BC5BBCF82CE4D4AE0022665A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5BBCF92CE4D4AE0022665A /* Build configuration list for PBXNativeTarget "QiitaWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5BBCFA2CE4D4AE0022665A /* Debug */,
+				BC5BBCFB2CE4D4AE0022665A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC5BBCFC2CE4E5390022665A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC5BBCFD2CE4E5390022665A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC5BBCFC2CE4E5390022665A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC5BBCC02CE4D4AA0022665A /* Project object */;
+}
